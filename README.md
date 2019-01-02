@@ -28,7 +28,9 @@ Once the binding is installed, you import it like any other python
 module.
 ```python
 import imagopy as ocr # for accessing the Imago OCR APIs
-ocr.imagoAllocSessionId() # creates a session.
+sess_id = ocr.imagoAllocSessionId() # creates a session.
+# perform some operations
+ocr.imagoReleaseSessionId(sess_id) # closes the session
 ```
 Please refer to Imago OCR [site](http://lifescience.opensource.epam.com/imago/c.html)
 for information about the APIs.
