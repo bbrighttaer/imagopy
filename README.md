@@ -17,7 +17,7 @@ Requirements
 
 Building & Installation
 -----------------------
-To build the shared the binding:
+To build the shared binding:
 1. `python setup.py clean`
 2. `python setup.py build_ext`
 3. `python setup.py install`
